@@ -1,0 +1,96 @@
+<html>
+<head>
+<style>
+
+body
+{
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+.a{
+font-size:45px;
+text-align:center;
+font-family:raleway;
+color:#87766C;
+text-decoration:none;
+background-color:#8A2D3C;
+}
+.a:hover{
+background-color:#8A2D3C;
+color:#EDD834;
+font-size:45px;
+}
+.b{
+font-size:25px;
+color:#FDD09F;
+text-align:center;
+background-color:#422E39;
+
+font-size:50px;
+}
+.c
+{
+transition:all 2s;
+border:5px solid #87766C;
+}
+.c:hover
+{
+transform:scale(2,2);
+}
+#map {
+height: 400px;
+width: 90%;
+margin: auto;
+}
+</style>
+<title>Choose Country</title>
+<link href="image/rel.jpg" rel="icon">
+</head>
+<body background="image/bg1.png" style="background-size:100%100%">
+<table height="50" width="90%" align="center" border="0" cellpadding="0">
+<tr>
+<td><img src="image/banner.png" height="300" width="100%"></td>
+</tr>
+</table>
+<table height="100" width="90%" align="center" border="0" cellpadding="0">
+<tr>
+<td class="b"><p> Which Country Do You Wish To Visit? </p></td>
+</tr>
+</table>
+
+<table height="100" width="90%" align="center" border="0" cellpadding="0">
+<tr>
+<td width="30%" class="a" class="c"><a href="su.html" class="a" class="c">USA</a></td><td width="30%" class="a" class="c"><a href="su.html" class="a" class="c">SAUDI ARABIA</a></td><td width="30%" class="a"><a href="su.html" class="a">INDIA</a></td>
+</tr>
+<tr>
+<div id="map"></div>
+    <script>
+      function initMap() {
+      	var saudiArabia = {lat: 23.475111, lng: 46.127659};
+      	var usa = {lat: 39.700233, lng: -101.177031};
+      	var india = {lat: 22.666508, lng: 78.822972};
+      	var worldCenter = {lat: 22.179037, lng: -6.606716};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 2,
+          center: worldCenter
+        });
+        var saudiArabiaMarker = new google.maps.Marker({
+          position: saudiArabia,
+          map: map
+        });
+        var usaMarker = new google.maps.Marker({
+          position: usa,
+          map: map
+        });
+        var indiaMarker = new google.maps.Marker({
+          position: india,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdQgYkHcGPbrscc-Niafm7TRWUr-TVZIk&callback=initMap">
+    </script>
+</tr>
+</table>
+</html>
