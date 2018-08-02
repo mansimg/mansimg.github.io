@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Syncopate");
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+body {
+  font-family:"Dosis", monospace;
+  color:#24305E;
+}
+
+#menubar{
+    margin: 0;
+    margin-top: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color:transparent;
+    position:left;
+    width: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color:#24305E ;
+    padding: 30px 20px;
+    text-decoration: none;
+    text-align:center;
+}
+
+li a.active {
+    background-color: transparent;
+    color:#F76C6C;
+}
+
+li a:hover:not(.active) {
+    background-color: transparent;
+    color:#A8D0E6;
+}
+
+h1 {
+  font-family:"Syncopate", monospace;
+  margin-left: 30px;
+  color:#374785;
+}
+
+
+h1 {
+  font-family:"Syncopate", monospace;
+  margin-left: 30px;
+}
+
+
+#map {
+  height: 500px;
+  width: 55%;
+  text-align: right;
+  margin-left: 400px;
+}
+h2{
+  margin-left: 600px;
+  vertical-align:top;
+  text-align:center;
+  background-color:#F8E9A1;
+  color:#24305E;
+  border-radius:10px;
+  z-index:999;
+  opacity:.75;
+  height: 50%;
+  font-size: 24px;
+  width: 350px;
+}
+.header{
+  border:none;
+  background-color:#A8D0E6;
+  width: 1425px;
+}
+a {
+    text-decoration:none;
+    color:#24305E ;
+}
+a:hover{
+  text-decoration: underline;
+}
+#art{
+  text-align: center;
+  margin-left: 600px;
+  vertical-align:top;
+  background-color:#F8E9A1;
+  color:#24305E;
+  border-radius:10px;
+  z-index:999;
+  opacity:.75;
+  height: 50%;
+  font-size: 24px;
+  width: 350px;
+}
+.cal{
+  margin-left: 400px;
+}
+

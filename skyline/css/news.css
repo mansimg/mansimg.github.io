@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Syncopate");
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+
+body {
+  font-family:"Dosis", monospace;
+  color:#24305E;
+}
+
+#menubar{
+    margin: 0;
+    margin-top: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color:transparent;
+    position:left;
+    width: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color:#24305E ;
+    padding: 30px 20px;
+    text-decoration: none;
+    text-align:center;
+}
+
+li a.active {
+    background-color: transparent;
+    color:#F76C6C;
+}
+
+li a:hover:not(.active) {
+    background-color: transparent;
+    color:#A8D0E6;
+}
+
+h1 {
+  font-family:"Syncopate", monospace;
+  margin-left: 30px;
+  color:#374785;
+}
+
+
+#news {
+  margin-left: 510px;
+  margin-right: 300px;
+  font-family:"Dosis", monospace;
+  margin-top:10px;
+  text-align:center;
+  width:100px;
+  opacity:.75;
+  background-color:#F8E9A1;
+  opacity:.75;
+  font-size:24px;
+  z-index:999;
+  border-radius:10px;
+  color:#24305E;
+
+}
+
+.twitter-timeline {
+  max-width: 50% !important;
+  margin-left:350px;
+  margin-right:350px;
+}
+
+#bulletin{
+  vertical-align:top;
+  font-family:"Dosis", monospace;
+  text-align:center;
+  background-color:#F8E9A1;
+  color:#24305E;
+  border-radius:10px;
+  z-index:999;
+  opacity:.75;
+  height: 50%;
+  font-size: 24px;
+}
+#art{
+  font-size: 18px;
+  color:#24305E;
+  margin-top: 0px;
+}
+#chat{
+  font-size: 18px;
+  color:#24305E;
+  margin-top: 0px;
+}
+#search{
+  background: #A8D0E6;
+  text-indent: 0px;
+  width: 500px;
+}
+#title{
+  padding-right: 500px;
+  background: #A8D0E6;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.header{
+  border:none;
+  background-color:#A8D0E6;
+  width: 100%;
+}

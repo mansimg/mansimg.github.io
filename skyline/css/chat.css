@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Syncopate");
+@import url("https://fonts.googleapis.com/css?family=Terminal+Dosis");
+
+body {
+  font-family:"Terminal Dosis", monospace;
+}
+h1 {
+  font-family:"Syncopate", monospace;
+  margin-left: 30px;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+#menubar{
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+    background-color:transparent;
+    font-color:black;
+    position:left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 30px 20px;
+    text-decoration: none;
+    text-align:center;
+}
+
+li a.active {
+    background-color: transparent;
+    color: #374785;
+}
+
+li a:hover:not(.active) {
+    background-color: transparent;
+    color: #A8D0E6;
+}
+#search{
+  background: none;
+  text-indent: 0px;
+  width: 500px;
+}
+#title{
+  padding-right: 500px;
+}

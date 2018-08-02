@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+
+body{
+  border-style:solid;
+  border-width:8px;
+  font-size:30px;
+  color:black;
+  font-family: "Dosis", monospace;
+}
+h1{
+  font-size:40px;
+  color:Black;
+}
+
+h2{
+  font-size:35px;
+  color:black;
+}
+button{
+  color:green;
+  width:90px;
+  height:40px;
+}
+hr{
+  display:block;
+  border-width:5px;
+  border-color:black;
+}
+
+
+
+#profiles{
+  border: 3px solid Black;
+  overflow: hidden;
+  padding:20px;
+  }
+#profiles{
+  padding: 25px;
+}
+
+
+#search{
+  background: none;
+  text-indent: 0px;
+  width: 500px;
+}
+#title{
+  padding-right: 500px;
+}
+#profile{
+  width: 100%;
+}
+#profiles{
+  border: 3px solid Black;
+  padding: 15px;
+}
+
+
+
+input{
+  white-space: pre-line;
+}
